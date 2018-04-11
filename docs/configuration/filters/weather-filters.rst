@@ -1,4 +1,4 @@
-Stops
+Weather
 =====================================
 
 .. contents:: Table of Contents
@@ -19,12 +19,12 @@ This page assumes:
 Introduction
 -------------------------------------
 
-The ``"stops"`` section has three distinct settings.
+The ``"weather"`` section has three distinct settings.
 
 +----------------------+-----------------------------------------------------------+
 | Setting Name         | Description                                               |
 +======================+===========================================================+
-| enabled              | Process Stop Events only if ``true``                      |
+| enabled              | Process Weather Events only if ``true``                      |
 +----------------------+-----------------------------------------------------------+
 | defaults             | Section for the default settings                          |
 +----------------------+-----------------------------------------------------------+
