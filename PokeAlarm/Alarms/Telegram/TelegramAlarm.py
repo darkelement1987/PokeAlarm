@@ -32,8 +32,9 @@ class TelegramAlarm(Alarm):
         'monsters': {
             'message': "*A wild <mon_name> has appeared!*\n"
                        "Available until <24h_time> (<time_left>).",
-            'sticker_url': get_image_url(
-                "telegram/monsters/<mon_id_3>_<form_id_3>.webp")
+            'sticker_url': "https://github.com/whitewillem/PogoAssets"
+            "/tree/resized/no_border/telegram/monsters/"
+            "<mon_id_3>_<form_id_2>.webp"
         },
         'stops': {
             'message': "*Someone has placed a lure on a Pokestop!*\n"
