@@ -56,8 +56,9 @@ class TelegramAlarm(Alarm):
             'message': "*A raid is available against <mon_name>!*\n"
                        "The raid is available until <24h_raid_end> "
                        "(<raid_time_left>).",
-            'sticker_url':
-                get_image_url("telegram/monsters/<mon_id_3>_<form_id_3>.webp")
+            'sticker_url': "https://github.com/whitewillem/PogoAssets"
+            "/tree/resized/no_border/telegram/monsters/"
+            "<mon_id_3>_<form_id_2>.webp"
         },
         'weather': {
             'message': "The weather around <lat>,<lng> has"
